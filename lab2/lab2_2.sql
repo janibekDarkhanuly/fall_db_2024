@@ -1,3 +1,4 @@
+create database lab2;
 Create table countries(
     country_id serial primary key,
     country_name varchar(255),
