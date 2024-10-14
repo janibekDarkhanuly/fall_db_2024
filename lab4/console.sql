@@ -47,7 +47,6 @@ SELECT DISTINCT contents from Boxes;
 SELECT w.code, COUNT(b.warehouse)
 FROM Warehouses w
 JOIN Boxes b ON w.code = b.warehouse
-GROUP BY w.code;
 
 SELECT w.code, COUNT(b.warehouse)
 FROM Warehouses w
